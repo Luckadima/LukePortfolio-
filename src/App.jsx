@@ -144,15 +144,66 @@ export default function App(){
         </div>
       </section>
 
-      <section className="contact" id="contact">
-        <div className="contact-inner" data-reveal>
-          <p className="eyebrow light">LET’S WORK TOGETHER</p>
-          <h2>Have something <em>worth showing?</em></h2>
-          <p>I’m open to UGC collaborations across tech, fashion, lifestyle and digital products.</p>
-          <a className="white-btn magnetic" href="mailto:your-email@example.com">Get in touch ↗</a>
+<section className="contact" id="contact">
+  <div className="contact-inner" data-reveal>
+    <p className="eyebrow light">LET'S CONNECT</p>
+
+    <h2>
+      Find me <em>online.</em>
+    </h2>
+
+    <p>
+      Follow my work, see what I'm creating, or reach out about a
+      collaboration.
+    </p>
+
+    <div className="social-links">
+      <a
+        href="https://www.instagram.com/lukekadimaa/?hl=en"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-link"
+      >
+        <div>
+          <span>INSTAGRAM</span>
+          <strong>@lukekadimaa</strong>
         </div>
-        <div className="contact-marquee">CREATE · STYLE · BUILD · SHARE ·</div>
-      </section>
+
+        <span className="social-arrow">↗</span>
+      </a>
+
+      <a
+        href="https://www.tiktok.com/@lukecodes"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-link"
+      >
+        <div>
+          <span>TIKTOK</span>
+          <strong>@lukecodes</strong>
+        </div>
+
+        <span className="social-arrow">↗</span>
+      </a>
+
+      <a
+        href="mailto:lukekadima1942@gmail.com"
+        className="social-link"
+      >
+        <div>
+          <span>EMAIL</span>
+          <strong>lukekadima1942@gmail.com</strong>
+        </div>
+
+        <span className="social-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
+  <div className="contact-marquee">
+    CONNECT · CREATE · COLLABORATE ·
+  </div>
+</section>
     </main>
 
     <footer className="shell"><span>© 2026 Luke Kadima</span><span>UGC Creator · Developer · Creative</span></footer>

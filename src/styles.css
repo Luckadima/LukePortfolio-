@@ -7,3 +7,76 @@
 #style-notes{
   scroll-margin-top:40px;
 }
+
+.social-links {
+  width: min(760px, 100%);
+  margin-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.social-link {
+  min-height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+  color: white;
+  text-decoration: none;
+
+  transition:
+    padding 0.3s ease,
+    background 0.3s ease;
+}
+
+.social-link > div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.social-link span {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  opacity: 0.7;
+}
+
+.social-link strong {
+  font-size: clamp(17px, 2vw, 23px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.social-arrow {
+  font-size: 25px !important;
+  opacity: 1 !important;
+
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  padding-left: 18px;
+  padding-right: 18px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover .social-arrow {
+  transform: translate(5px, -5px);
+}
+
+@media (max-width: 560px) {
+  .social-link {
+    min-height: 82px;
+  }
+
+  .social-link strong {
+    font-size: 16px;
+  }
+
+  .social-link:last-child strong {
+    font-size: 14px;
+  }
+}
