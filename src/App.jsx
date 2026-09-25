@@ -45,7 +45,7 @@ export default function App(){
 
     <header className="nav">
       <a href="#top" className="brand"><span>LK</span><strong>Luke Kadima</strong></a>
-      <nav><a href="#work">Work</a><a href="#about">About</a><a href="#interests">Interests</a><a href="#contact">Contact</a></nav>
+      <nav><a href="#campaign">Brand work</a><a href="#work">Work</a><a href="#about">About</a><a href="#interests">Interests</a><a href="#contact">Contact</a></nav>
     </header>
 
     <main id="top">
@@ -67,6 +67,37 @@ export default function App(){
         <div className="ticker-track">
           <span>UGC CREATOR</span><i>•</i><span>FASHION</span><i>•</i><span>TECH</span><i>•</i><span>LIFESTYLE</span><i>•</i><span>CREATIVE</span><i>•</i>
           <span>UGC CREATOR</span><i>•</i><span>FASHION</span><i>•</i><span>TECH</span><i>•</i><span>LIFESTYLE</span><i>•</i><span>CREATIVE</span><i>•</i>
+        </div>
+      </section>
+
+      <section className="campaign shell" id="campaign" aria-labelledby="campaign-title">
+        <div className="campaign-heading" data-reveal>
+          <p className="eyebrow">PAID BRAND COLLABORATION · SEPTEMBER 2026</p>
+          <h2 id="campaign-title">Real brand. <span>Real story.</span></h2>
+        </div>
+        <div className="campaign-layout">
+          <div className="campaign-film" data-reveal>
+            <video controls playsInline preload="none" poster="/images/roots-heritage-day.jpg" aria-label="Roots Butchery Heritage Day campaign video">
+              <source src="/videos/roots-heritage-day.mp4" type="video/mp4" />
+              Your browser does not support video playback. <a href="https://vt.tiktok.com/ZSbJdvfae/">Watch the campaign on TikTok.</a>
+            </video>
+            <p>THE FINISHED CAMPAIGN · 29 SECONDS</p>
+          </div>
+          <div className="campaign-copy" data-reveal>
+            <span className="campaign-label">ROOTS BUTCHERY</span>
+            <h3>A Heritage Day special, told my way.</h3>
+            <p className="campaign-intro">A paid UGC collaboration for Roots Butchery’s Heritage Day hamper, created through DALI / Full House Creative.</p>
+            <p>I filmed on location, presented the hamper on camera and edited the final video around the supplied campaign brief. The finished piece brings together in-store footage, product shots and a conversational delivery.</p>
+            <dl className="campaign-details">
+              <div><dt>My role</dt><dd>On-camera presentation · Filming · Editing</dd></div>
+              <div><dt>Deliverable</dt><dd>One short-form video, published on TikTok</dd></div>
+              <div><dt>Category</dt><dd>Food &amp; lifestyle · Seasonal promotion</dd></div>
+            </dl>
+            <div className="campaign-actions">
+              <a className="btn" href="https://vt.tiktok.com/ZSbJdvfae/" target="_blank" rel="noopener noreferrer">View the TikTok post ↗</a>
+              <a className="underlink" href="#contact">Let’s work together ↘</a>
+            </div>
+          </div>
         </div>
       </section>
 
